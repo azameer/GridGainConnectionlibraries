@@ -1,5 +1,5 @@
 # GridGainConnectionlibraries
-This connection library (GGainDBMgr) enables us to connect to Grid Gain server and execute queries
+This connection library (GGainDBMgr) enables us to connect to Grid Gain server and execute queries,
 the following are the prerequisites & Usage to execute a query on Grid Gain.
 
 PREREQUISITES: The following modules should be in same directory where the query execution script 
