@@ -1,2 +1,19 @@
 # GridGainConnectionlibraries
-This connection library enables us to connect to Grid Gain server and execute queries.
+This connection library (GGainDBMgr) enables us to connect to Grid Gain server and execute queries
+the following are the prerequisites & Usage to execute a query on Grid Gain.
+
+PREREQUISITES: The following modules should be in same directory where the query execution script 
+is executed.
+
+GGDbMgr.pm
+Logger.pm
+GGainDBMgr.pm
+
+
+
+
+USAGE: perl ExecuteGridGainQry.pl -opt=<DBOperation> -q=<query string>
+
+Example: perl ExecuteGridGainQry.pl -opt=Insert -q=\"Insert into TestTable values('test')\"
+	       perl ExecuteGridGainQry.pl -opt=Select -q=\"Select * From TestTable\";
+
