@@ -7,7 +7,8 @@ use warnings;
 
 use Exporter;
 use POSIX;
-use Kodiak::GGDbMgr;
+#use Kodiak::GGDbMgr;
+use GGDbMgr;
 my @ISA = qw(Exporter);
 
 sub new
