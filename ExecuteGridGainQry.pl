@@ -13,8 +13,11 @@ BEGIN
    unshift(@INC,"/DG/activeRelease/lib/perl_lib/");
 }
 
-use Kodiak::Logger;
-use Kodiak::GGainDBMgr;
+#use Kodiak::Logger;
+#use Kodiak::GGainDBMgr;
+
+use Logger;
+use GGainDBMgr;
 
 my $LogFile = "/DGlogs/ExecuteGridGainQry.log";
 my $Logger = Logger->new("DEBUG");
