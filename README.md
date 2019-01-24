@@ -16,6 +16,9 @@ USAGE: perl ExecuteGridGainQry.pl -opt=DBOperation -q=query string
 
 options are INSERT|UPDATE|DELETE|DROP|CREATE|SELECT
 
-Example:       perl ExecuteGridGainQry.pl -opt=Insert -q=\"Insert into TestTable values('test')\"
-	       perl ExecuteGridGainQry.pl -opt=Select -q=\"Select * From TestTable\";
+Examples:       
+
+perl ExecuteGridGainQry.pl -opt=Insert -q=\"Insert into TestTable values('test')\"
+
+perl ExecuteGridGainQry.pl -opt=Select -q=\"Select * From TestTable\";
 
